@@ -1,0 +1,44 @@
+.detail1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+}
+
+.left1{
+    color: #666;
+    font-size: 16px;
+}
+
+.left1 > div:nth-child(1){
+    font-size: 24px;
+    color: #666;
+}
+
+.left1 span{
+    color: #333;
+    font-weight: 600;
+}
+
+.right1{
+    align-self: end;
+    text-align: right;
+}
+
+.right1 img{
+    width: 80px;
+    height: 20px;
+}
+
+.right1 b{
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .detail1 {
+      grid-template-columns: 1fr;
+    }
+  }
+  

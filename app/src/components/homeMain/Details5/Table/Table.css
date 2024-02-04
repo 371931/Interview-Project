@@ -1,0 +1,53 @@
+.tableCon{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-self: center;
+}
+
+.tableCon > p{
+    text-align: left;
+    color: #333;
+    font-size: 14px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.chart{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.chart > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+th,td{
+    border-bottom: 2px solid #eee;
+    padding: 10px;
+}
+
+th{
+    color: #333;
+    font-size: 15px;
+}
+
+td{
+    color: #666;
+    font-size: 15px;
+}

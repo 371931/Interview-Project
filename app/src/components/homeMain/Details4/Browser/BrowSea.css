@@ -1,0 +1,72 @@
+.browSea{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+    width: 380px;
+}
+
+.browSea > p{
+    font-size: 14px !important;
+}
+
+.browSea > div{
+    margin-top: -31px;
+}
+
+.pieChar{
+    align-self: center;
+}
+
+.broeList{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.broeList li{
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.broeList > .fd{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ld div{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+} 
+
+.l1 > div{
+    background-color: #354491 !important;
+}
+
+.l2 > div{
+    background-color: #408a44;
+}
+
+.l3 > div{
+    background-color: #c73832;
+}
+
+.l4 > div{
+    background-color: #bf1e53;
+}
+
+.l5 > div{
+    background-color: #3fb0e5;
+}

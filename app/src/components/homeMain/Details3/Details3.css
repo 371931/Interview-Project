@@ -1,0 +1,6 @@
+.gri{
+    display: grid;
+    grid-template-columns: 60% 38%;
+    grid-template-rows: 60% 40%;
+    gap: 20px;
+}

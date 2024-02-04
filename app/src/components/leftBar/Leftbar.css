@@ -1,0 +1,86 @@
+.leftbar{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 221px;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    height: 92.4vh;
+}
+
+.proLeftBar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #eee;
+    padding: 15px 10px;
+}
+
+.proLeftBar >  div > .nameLeft{
+    color: #333;
+}
+
+.proLeftBar >  div > .roleLeft{
+    color: #666;
+}
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px !important;
+    background-color: #eee !important;
+    color:#6599b4 !important;
+    font-weight: 600 !important;
+}
+
+.dashboard:hover{
+    background-color: #666;
+}
+
+.leftbar > div{
+    display: flex;
+    padding: 20px 25px;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.leftbar > div:hover{
+    background-color: #eee;
+}
+
+
+.leftbar > div > .arrow{
+    position: absolute;
+    right: 15px;
+    font-size: 15px;
+}
+
+.star{
+    text-align: center;
+    line-height: 33px;
+    font-size: 32px;
+    padding-top: 8px;
+    transform: rotate(90deg);  
+}
+
+.division{
+    gap: 5px !important;
+    justify-content: center;
+    background-color: #eee;
+    color: #666 !important;
+}
+
+.division > .copySym{
+    font-size: 14px;
+}
+
+.division > .matria{
+    color: #6599b4;
+}

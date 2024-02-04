@@ -1,0 +1,141 @@
+.mainTab{
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+}
+
+.todoCon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.tiBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tiBtn > p{
+    color: #333;
+    font-size: 14px;
+}
+
+.tiBtn > button{
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: #e72565;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.todoCon > .notes{
+    min-height: 160px;
+    max-height: 160px;  
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.todoCon > .notes::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.todoCon > .notes::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+
+.todoCon > .notes::-moz-scrollbar {
+    width: 0.5em;
+}
+
+.todoCon > .notes::-moz-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.todoCon > .notes > .note{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 1px;
+}
+
+.todoCon > .notes > .note > .checkBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #666;
+    cursor: pointer;
+}
+
+.todoCon > .notes > .note > .content{
+    font-size: 15px;
+    color: #666;
+}
+
+input{
+    width: 100%;    
+    padding: 15px;
+    border: none;
+    border-top: 2px solid #eee;
+    outline: none;
+}
+
+.todoCon > input::placeholder{
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+
+.buttonsRight{
+    display: flex;
+    gap: 5px;
+}
+
+.buttonsRight > button{
+    background-color: #ffffff;
+    padding: 5px;
+    border: 1px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.buttonsRight > button:hover{
+    background-color: #cdcdcd;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.buttonsLeft{
+    display: flex;
+    gap:5px;
+}
+
+.buttonsLeft > button{
+    border: none;
+    padding: 5px;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.buttonsLeft > button:last-child{
+    background-color: #e72565;
+}
+
+.buttonsLeft > button:first-child{
+    background-color: #777677;
+}
+
+.checked{
+    background-color: #e72565;
+    color: white;
+}

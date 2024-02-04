@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4154b3;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    color: white;
+}
+
+.left > .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    background-color: #31419d;
+    height: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.left > .searchBar{
+    display: flex;
+    position: relative;
+}
+
+.left > .searchBar > input{
+    padding: 10px;
+    border: none;
+    width: 250px;
+}
+
+.left > .searchBar > .searchIcon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #999;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    padding: 0px 30px;
+    color: white;
+}
+
+.right > .profileImg{
+    border: 2px solid white;
+}

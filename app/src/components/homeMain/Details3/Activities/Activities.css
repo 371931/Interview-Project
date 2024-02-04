@@ -1,0 +1,80 @@
+.acti {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+    padding: 20px;
+    width: 100%;
+}
+
+.acti{
+    position: relative;
+}
+
+p{
+    color: #333;
+    font-weight: 600;
+}
+
+hr{
+    top: 27px;
+}
+
+.actCon{
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.actCon::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.actCon::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+
+.actCon::-moz-scrollbar {
+    width: 0.5em;
+}
+
+.actCon::-moz-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.activity {
+    padding: 10px 5px;
+    padding-top: 0px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.cod{
+    background-color: red;
+    position: absolute;
+    width: 2px;
+    overflow: hidden;
+    font-size: 39px;
+    left: 5px;
+    top: 10px;
+}
+
+.activity>.dot {
+    color: red;
+    position: absolute;
+    font-size: 90px;
+    left: -5px;
+    top: -59px;
+}
+
+
+.activity>.time {
+    font-size: 14px;
+    color: #666;
+}
+
+.activity>.text {
+    color: #333;
+}

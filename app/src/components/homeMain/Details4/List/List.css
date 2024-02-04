@@ -1,0 +1,19 @@
+.lister{
+    display: flex;
+    align-items: center;
+}
+
+.lister ul{
+    padding: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+}
+
+.listStyled{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+li{
+    cursor: pointer;
+}
